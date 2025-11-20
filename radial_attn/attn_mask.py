@@ -1,10 +1,10 @@
 import torch
 import flashinfer
 import matplotlib.pyplot as plt
-from sparse_sageattn import sparse_sageattn
+# from sparse_sageattn import sparse_sageattn
 from einops import rearrange, repeat
 from sageattention import sageattn
-from spas_sage_attn import block_sparse_sage2_attn_cuda
+from spas_sage_attn import block_sparse_sage2_attn_cuda # spas_sage2_attn_meansim_topk_cuda
 
 def get_cuda_arch_versions():
     cuda_archs = []
